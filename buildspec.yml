@@ -1,0 +1,6 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      - mvn verify sonar:sonar -Dsonar.projectKey=javavunapp -Dsonar.organization=brotherfranklyn -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=6ee43aaf4d48bfbe88f9512cd3823ea162f9acb1 
+
