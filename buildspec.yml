@@ -2,6 +2,5 @@ version: 0.1
 phases:
   build:
     commands:
-      - mvn verify sonar:sonar -Dsonar.projectKey=
-vuln-java-app-sonar -Dsonar.organization=franklyn4 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=634109846d4f6ce94d324cd7a4a1fbb0f7f85357
+      - mvn verify sonar:sonar -Dsonar.projectKey=vuln-java-app-sonar -Dsonar.organization=franklyn4 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=634109846d4f6ce94d324cd7a4a1fbb0f7f85357
 
